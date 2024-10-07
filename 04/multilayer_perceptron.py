@@ -1,6 +1,14 @@
 import numpy as np
 
 class MultiLayerPerceptron:
+    """
+    A simple implementation of a Multi-Layer Perceptron neural network.
+    
+    This implementation includes:
+    - Three layers with hardcoded weights and biases
+    - Sigmoid activation for hidden layers
+    - Identity activation for output layer
+    """
     def __init__(self):
         self.net = {}
         pass
